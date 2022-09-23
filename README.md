@@ -13,11 +13,11 @@ Frame printAll()
 5. В Heap создается Integer, в frame присваивается ссылка uselessVar на Integer.
 Frame system.out.println()
 6. В Stack Memory создается Frame system.out.println() с параметрами o (ссылка на Object), int i, ii (ссылка на Integer).
-6.1 Создается frame toString() с возрвращаемым обхектом типа String;
+6.1 Создается frame toString() с возврращаемым объектом типа String;
 После обработки данных Stack Memory удаляет Frames в следующем порядке:
 > toString, system.out.println, printAll
 7. Создается frame system.out.println() с параметром String = finished;
-После обработки даннных Stack Memory удаляет Frames в следующем порядке:
+После обработки данных Stack Memory удаляет Frames в следующем порядке:
 > system.out.println, psvm.
 
 Java программа завершает свою работу.
